@@ -20,10 +20,12 @@ public class Bullet : MonoBehaviour
         myRigidbody.velocity = new Vector2(xSpeed, 0f);
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.tag == "Enemy")
+        Debug.Log("COLLISION");
+        if (other.gameObject.tag == "Enemy")
         {
+            Debug.Log("COLLISION");
             Destroy(other.gameObject);
         }
         Destroy(gameObject);

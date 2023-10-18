@@ -5355,6 +5355,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4412793452609160938, guid: be709d3f86f2daf44b0c86f50cc75fb3, type: 3}
   m_PrefabInstance: {fileID: 1277562858}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1506028017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7921708661501470698, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_Name
+      value: Slime King
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470701, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.005575
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.525877
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
 --- !u!4 &1563703549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5325806595170414255, guid: f4803b3f19063dd4eba2910548b105b2, type: 3}
@@ -5752,6 +5813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slime King
       objectReference: {fileID: 0}
+    - target: {fileID: 7921708661501470701, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7921708661501470703, guid: aae35a300dcbb5d44b1315c4e632f8db, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5855,6 +5920,63 @@ Transform:
   - {fileID: 1241644902}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2007183657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.908653
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.7989473
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303189450593875497, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046839049876869416, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
+      propertyPath: m_Name
+      value: Bullet (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b498746da7c6134da35c8025e9a5bbb, type: 3}
 --- !u!1001 &2047414501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58639,3 +58761,5 @@ SceneRoots:
   - {fileID: 2047414501}
   - {fileID: 1934513137}
   - {fileID: 15696502}
+  - {fileID: 2007183657}
+  - {fileID: 1506028017}
